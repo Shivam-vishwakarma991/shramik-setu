@@ -44,6 +44,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+                location.replace('https:' + window.location.href.substring(window.location.protocol.length));
+              }
+            `,
+          }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   )
