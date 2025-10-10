@@ -16,7 +16,6 @@ export default function Home() {
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     alert('Thank you for your request! We will contact you soon.')
-    e.currentTarget.reset()
   }
 
   return (
