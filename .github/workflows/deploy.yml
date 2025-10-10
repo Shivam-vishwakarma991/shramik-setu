@@ -33,6 +33,11 @@ jobs:
     - name: Build
       run: npm run build
       
+    - name: Verify build output
+      run: |
+        ls -la out/
+        echo "Build completed successfully"
+      
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
