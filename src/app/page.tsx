@@ -325,9 +325,9 @@ export default function Home() {
           <div className="text-3xl font-bold mb-4">Sagar Vishwakarma</div>
           <div className="text-xl mb-6 opacity-90">Founder & CEO, ShramikSetu</div>
           <div className="text-lg leading-relaxed mb-8 italic">
-            "At ShramikSetu, we believe in providing quality service with complete transparency and customer satisfaction. 
+            &ldquo;At ShramikSetu, we believe in providing quality service with complete transparency and customer satisfaction. 
             Our mission is to make professional cleaning, repair, and maintenance services accessible to everyone at affordable prices. 
-            With years of experience in the industry, we understand your needs and deliver solutions that exceed expectations."
+            With years of experience in the industry, we understand your needs and deliver solutions that exceed expectations.&rdquo;
           </div>
           <div className="text-xl font-bold">- Sagar Vishwakarma</div>
         </div>
@@ -346,7 +346,7 @@ export default function Home() {
               <i className="fab fa-whatsapp"></i>
             </div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Scan this QR code with your phone's camera to open a WhatsApp chat with ShramikSetu. Get instant quotes, book services, and get your questions answered quickly!
+              Scan this QR code with your phone&apos;s camera to open a WhatsApp chat with ShramikSetu. Get instant quotes, book services, and get your questions answered quickly!
             </p>
             <a href="https://wa.me/916268396616" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-4 rounded-full font-bold hover:bg-green-600 hover:-translate-y-1 transition-all flex items-center gap-2">
               <i className="fab fa-whatsapp"></i> Open WhatsApp Directly
@@ -418,7 +418,7 @@ export default function Home() {
             
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-2">Book a Service</h3>
-              <p className="text-gray-600 mb-6">Fill out the form below and we'll get back to you soon</p>
+              <p className="text-gray-600 mb-6">Fill out the form below and we&apos;ll get back to you soon</p>
               
               <form onSubmit={handleFormSubmit} className="space-y-4">
                 <div>
